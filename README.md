@@ -25,13 +25,13 @@ All the API endpoints are protected with JWT Bearer Token Authorization and Basi
    * Create a new customer
 3. /api/ReadingIsGood/GetCustomerOrders/{customerId}
    * Get All orders for a particular customer
-5. /api/ReadingIsGood/GetOrder/{orderId}
+4. /api/ReadingIsGood/GetOrder/{orderId}
    * Get an order with Id orderId
-7. /api/ReadingIsGood/CreateOrder
+5. /api/ReadingIsGood/CreateOrder
    * Create a new Order
-9. /api/ReadingIsGood/GetAllBooks
+6. /api/ReadingIsGood/GetAllBooks
    * get a list of all the books available in the store
-11. /api/ReadingIsGood/authenticate
+7. /api/ReadingIsGood/authenticate
    * Use this method to generate a token for subsequent requests to API endpoints.
 
 ## How to Authenticate?
@@ -39,5 +39,5 @@ Please call authenticate "**/api/readingisgoodauthentica**" api with username an
 Use authorize button and add the key to login
 After login all API endpoints should be accessible.
 
-### Deployed on Azure
+## Deployed on Azure
  * The API is deployed on Azure. Click [Online API](https://readingisgoodapi.azurewebsites.net/swagger/index.html) to Navigate to the API.
