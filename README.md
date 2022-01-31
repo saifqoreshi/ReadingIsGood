@@ -19,9 +19,14 @@ The API uses swagger Open API specification
 All the API endpoints are protected with JWT Bearer Token Authorization and Basic Username, Password Authentication
 
 # API Endpoints
-* http://localhost:59067/api/ReadingIsGood/GetAllCustomers
-** Create Customer (Post), creates a customer with FirstName, LastName, Email, PhoneNumber and a Shipping Address
-
+* api/ReadingIsGood/GetAllCustomers
+* /api/ReadingIsGood/CreateCustomer
+* /api/ReadingIsGood/GetCustomerOrders/{customerId}
+* /api/ReadingIsGood/GetOrder/{orderId}
+* /api/ReadingIsGood/CreateOrder
+* /api/ReadingIsGood/GetAllBooks
+* 
+​/api​/ReadingIsGood​/authenticate
 * GetCustomerOrders (GET), gets all the orders for a given customer (customerId)
 * CreateOrder (POST), creates a new order using customerId, and an array of items that correspond to OrderDetails/Books, i.e BookId, Quantity
 * GetOrder (GET), List the details of a particular order (OrderId)
