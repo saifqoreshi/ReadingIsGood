@@ -7,6 +7,9 @@ This api uses asp.net core (.net 5) web api template
 
 # Database
 The API uses MS SQL Server (Relational Database) to persist user data e.g Customers, Orders, Books etc.
+The Database is called BookStore, configured via **Connection String** in appsettings.json file of the project
+
+# RESTful APIs
 All the API endpoints are Restful
 
 # Swagger 
