@@ -26,4 +26,4 @@ All the API endpoints are protected with JWT Bearer Token Authorization and Basi
 * /api/ReadingIsGood/CreateOrder
 * /api/ReadingIsGood/GetAllBooks
 * /api/ReadingIsGood/authenticate
-
+[Link to Online API]https://readingisgoodapi.azurewebsites.net/swagger/index.html
