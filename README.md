@@ -19,8 +19,10 @@ The API uses swagger Open API specification
 All the API endpoints are protected with JWT Bearer Token Authorization and Basic Username, Password Authentication
 
 ## API Endpoints
-* api/ReadingIsGood/GetAllCustomers
-* /api/ReadingIsGood/CreateCustomer
+1. api/ReadingIsGood/GetAllCustomers
+  * Get a list of all customers 
+2. /api/ReadingIsGood/CreateCustomer
+  * Create a new customer
 * /api/ReadingIsGood/GetCustomerOrders/{customerId}
 * /api/ReadingIsGood/GetOrder/{orderId}
 * /api/ReadingIsGood/CreateOrder
