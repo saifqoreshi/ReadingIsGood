@@ -25,8 +25,5 @@ All the API endpoints are protected with JWT Bearer Token Authorization and Basi
 * /api/ReadingIsGood/GetOrder/{orderId}
 * /api/ReadingIsGood/CreateOrder
 * /api/ReadingIsGood/GetAllBooks
-* 
-​/api​/ReadingIsGood​/authenticate
-* GetCustomerOrders (GET), gets all the orders for a given customer (customerId)
-* CreateOrder (POST), creates a new order using customerId, and an array of items that correspond to OrderDetails/Books, i.e BookId, Quantity
-* GetOrder (GET), List the details of a particular order (OrderId)
+* /api/ReadingIsGood/authenticate
+
