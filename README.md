@@ -27,4 +27,10 @@ All the API endpoints are protected with JWT Bearer Token Authorization and Basi
 * /api/ReadingIsGood/GetAllBooks
 * /api/ReadingIsGood/authenticate
 
+# How to Authenticate?
+Please call authenticate "**/api/readingisgoodauthentica**" api with username and password as test1:password1 to get a key
+Use authorize button and add the key to login
+After login all API endpoints should be accessible.
+
+
  [Link to Online API](https://readingisgoodapi.azurewebsites.net/swagger/index.html)
