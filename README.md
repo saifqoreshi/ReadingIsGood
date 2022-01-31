@@ -35,8 +35,8 @@ All the API endpoints are protected with JWT Bearer Token Authorization and Basi
    * Use this method to generate a token for subsequent requests to API endpoints.
 
 ## How to Authenticate?
-Please call authenticate "**/api/readingisgoodauthentica**" api with username and password as test1:password1 to get a key
-Use authorize button and add the key to login
+Please call authenticate "**/api/ReadingIsGood/authenticate**" endpoint with username and password as test1:password1 to get a token.
+Use authorize button and add the token to login.
 After login all API endpoints should be accessible.
 
 ## Deployed on Azure
